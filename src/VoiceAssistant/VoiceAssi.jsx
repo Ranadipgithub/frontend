@@ -1,5 +1,5 @@
 
-import mic from "../assets/mic.svg";
+import { assets } from "../assets/assets";
 import { useEffect, useState } from "react";
 // import foodSvg from "../../assets/food.svg";
 import { useDispatch, useSelector } from "react-redux";
@@ -165,7 +165,7 @@ useEffect(() => {
 
     {/* Title */}
     <div className="flex flex-col items-center mb-6">
-        <img src={mic} alt="Voice Icon" className="w-16 h-16 mb-4" />
+        <img src={assets.mic} alt="Voice Icon" className="w-16 h-16 mb-4" />
         <h1 className="text-2xl sm:text-3xl font-bold text-white mb-4">
             Voice Assistance
         </h1>
